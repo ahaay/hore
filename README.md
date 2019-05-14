@@ -1,17 +1,23 @@
 # Hore Tool
 > A collection digital forensic tool
 
-## List Tool
+# List Tool
  * Cryptography
    * Encode Decode
  * Forensic
 
 
-## Dependency
+# Dependency
  * lib
 
 
-## Installation
+## Prerequisites
+To install necessary prerequisites on Ubuntu:
+
+    sudo apt-get install openssl coreutils gzip
+
+
+# Installation
 
 Building geth requires both a Go (version 1.10 or later) and a C compiler.
 You can install them using your favourite package manager.
@@ -24,7 +30,16 @@ or, to build the full suite of utilities:
     make all
 
 
-## Executables
+# Environment
+* Any OS having a Bash environment
+* The following tools must be installed and in the PATH:  openssl, shred, gzip, zcat
+
+
+# Usage
+```
+./encrypt-tool.sh encrypt <plaintextFile> [outputDir]
+./encrypt-tool.sh decrypt <encryptedFile> <outputFile>
+```
 
 
 ## Source
