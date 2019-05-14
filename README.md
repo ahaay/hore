@@ -2,10 +2,10 @@
 > A collection digital forensic tool
 
 # Feature
-- [ ] `Cryptography`
-	- [ ] Encode Decode
-		- [ ] Base64
-- [ ] `Forensic`
+- [ ] Cryptography
+	- [ ] `Encode Decode`
+		- [ ] `Base64`
+- [ ] Forensic
 
 
 # Installation
