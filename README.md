@@ -3,9 +3,18 @@
 
 # Feature
 - [ ] Cryptography
-	- [ ] `Encode Decode`
+    - [ ] `Encryption`
+        - [ ] `AES`
+        - [ ] `DES`
+        - [ ] `3DES`
+        - [ ] `RSA`
+    - [ ] `Hashing` 
+        - [ ] `MD5`
+	- [ ] `Encoding`
 		- [ ] `Base64`
 - [ ] Forensic
+    - [ ] `Image Forensic`
+        - [ ] `Exiftool`
 
 
 # Installation
