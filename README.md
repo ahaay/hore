@@ -2,10 +2,10 @@
 > A collection digital forensic tool
 
 # Feature
-- Cryptography
+- `Cryptography`
 	- Encode Decode
 		- Base64
-- Forensic
+- `Forensic`
 
 
 # Installation
@@ -36,7 +36,7 @@ htrace.sh -u https://nmap.org -s -h
 > * symlink to `bin/htrace.sh` is placed in `/usr/local/bin`
 > * man page is placed in `/usr/local/man/man8`
 
-## `docker image`:
+## `docker image`
 
 ```bash
 # Clone this repository
