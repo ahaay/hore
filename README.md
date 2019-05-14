@@ -13,6 +13,7 @@
 ## `Dependency`
  * lib
 
+## `Compiling`
 ```bash
 # Clone this repository
 git clone https://github.com/trimstray/htrace.sh
@@ -35,7 +36,7 @@ htrace.sh -u https://nmap.org -s -h
 > * symlink to `bin/htrace.sh` is placed in `/usr/local/bin`
 > * man page is placed in `/usr/local/man/man8`
 
-or build `docker image`:
+## `docker image`:
 
 ```bash
 # Clone this repository
