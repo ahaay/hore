@@ -7,16 +7,6 @@
  * Forensic
 
 
-# Dependency
- * lib
-
-
-## Prerequisites
-To install necessary prerequisites on Ubuntu:
-
-    sudo apt-get install openssl coreutils gzip
-
-
 # Installation
 
 Building geth requires both a Go (version 1.10 or later) and a C compiler.
@@ -28,6 +18,17 @@ Once the dependencies are installed, run
 or, to build the full suite of utilities:
 
     make all
+
+
+## Dependency
+ * lib
+
+
+## Prerequisites
+To install necessary prerequisites on Ubuntu:
+
+    sudo apt-get install openssl coreutils gzip
+
 
 
 # Environment
