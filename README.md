@@ -36,7 +36,7 @@ htrace.sh -u https://nmap.org -s -h
 > * symlink to `bin/htrace.sh` is placed in `/usr/local/bin`
 > * man page is placed in `/usr/local/man/man8`
 
-## `docker image`
+## `Docker Image`
 
 ```bash
 # Clone this repository
