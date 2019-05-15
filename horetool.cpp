@@ -1,20 +1,24 @@
-#include <conio.h>
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
-#include <dos.h>
  
+using namespace std;
+
 int main()
 {
- 
+printf(" | List Hore Tool  *********************|");cout<<endl;
+printf(" | 1. Encryption	4. Forensic\t|");cout<<endl;
+printf(" | 2. Hashing		5. WebRecon\t|");cout<<endl;
+printf(" | 3. Encoding		6. Utility\t|");cout<<endl;
+printf(" |             		7. Exit__\t|");cout<<endl;
+printf(" | *************************************|");cout<<endl;
 
-menu :
-clrscr();
-textcolor(14); cprintf(" | Menu Utama Bank ********************|");cout<<endl;//menu utama
-textcolor(14); cprintf(" | 1. Bayar Tagihan     4. Tarik Tunai |");cout<<endl;
-textcolor(14); cprintf(" | 2. Beli Pulsa        5. Cek Saldo   |");cout<<endl;
-textcolor(14); cprintf(" | 3. Transfer Dana     6. Ganti Pin   |");cout<<endl;
-textcolor(14); cprintf(" |                      7. Exit__      |");cout<<endl;
-textcolor(14); cprintf(" | ************************************|");cout<<endl;
- 
+cout << "Pilih Tool : ";
+
+//Program Encryption
+system("encoding.exe");
+
+//Program Hashing
+
+//Program Encoding
 
 }
