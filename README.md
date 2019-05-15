@@ -13,7 +13,7 @@
         - [ ] `MD5`
 	- [ ] `Encoding`
 		- [ ] `Base64`
-        - [ ] `Base32`
+        - [ ] `Base32`r
 - [ ] Forensic
     - [ ] `Stegano`
         - [ ] `LSB [Text Based]`
@@ -22,6 +22,7 @@
         - [ ] `Exiftool`
 - [ ] WebRecon
     - [ ] `WHOIS`
+    - [ ] `DNS Enum`
 - [ ] Utility
     - [ ] `Curl`
 
