@@ -13,7 +13,7 @@
         - [ ] `MD5`
 	- [ ] `Encoding`
 		- [ ] `Base64`
-        - [ ] `Base32`r
+        - [ ] `Base32`
 - [ ] Forensic
     - [ ] `Stegano`
         - [ ] `LSB [Text Based]`
