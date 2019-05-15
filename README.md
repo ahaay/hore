@@ -15,11 +15,13 @@
 		- [ ] `Base64`
         - [ ] `Base32`
 - [ ] Forensic
+    - [ ] `Stegano`
+        - [ ] `LSB [Text Based]`
+        - [ ] `MSB [Text Based]`
     - [ ] `Image Forensic`
         - [ ] `Exiftool`
 - [ ] WebRecon
-    - [ ] `Image Forensic`
-        - [ ] `Exiftool`
+    - [ ] `WHOIS`
 - [ ] Utility
     - [ ] `Curl`
 
