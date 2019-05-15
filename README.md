@@ -4,6 +4,7 @@
 # Feature
 - [ ] Cryptography
     - [ ] `Encryption`
+        - [ ] `Caesar`
         - [ ] `AES`
         - [ ] `DES`
         - [ ] `3DES`
@@ -12,9 +13,16 @@
         - [ ] `MD5`
 	- [ ] `Encoding`
 		- [ ] `Base64`
+        - [ ] `Base32`
 - [ ] Forensic
     - [ ] `Image Forensic`
         - [ ] `Exiftool`
+- [ ] WebRecon
+    - [ ] `Image Forensic`
+        - [ ] `Exiftool`
+- [ ] Utility
+    - [ ] `Curl`
+
 
 
 # Installation
