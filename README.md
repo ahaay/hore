@@ -13,16 +13,18 @@
         - [ ] `MD5`
 	- [ ] `Encoding`
 		- [ ] `Base64`
-        - [ ] `Base32`
+        	- [ ] `Base32`
 - [ ] Forensic
     - [ ] `Stegano`
         - [ ] `LSB [Text Based]`
         - [ ] `MSB [Text Based]`
     - [ ] `Image Forensic`
         - [ ] `Exiftool`
-- [ ] WebRecon
+- [ ] Recon
     - [ ] `WHOIS`
     - [ ] `DNS Enum`
+    - [ ] `IP Scanner`
+    - [ ] `Port Scanner`
 - [ ] Utility
     - [ ] `Curl`
 
@@ -31,7 +33,7 @@
 # Installation
 
 ## `Dependency`
- * lib
+ * NMAP
 
 ## `Compiling`
 ```bash
