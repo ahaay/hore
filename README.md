@@ -47,9 +47,7 @@ docker run --rm -it --name htrace.sh htrace.sh -u https://nmap.org -s -h
 ```
 
 
-
-
-# How to Use
+# `How to Use`
 
 Provides the following options:
 
