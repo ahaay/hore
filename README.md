@@ -41,8 +41,6 @@ docker pull rhmandrian/hore
 
 # How to Use
 docker run -it --name [container_name] rhmandrian/hore
-
-:~#./hore
 ```
 
 
