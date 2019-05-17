@@ -29,37 +29,11 @@
 - [ ] Utility
     - [ ] `Curl`
 
+## README
+Pada source utama `horetool.cpp` kita sengaja memanggil beberapa executable yg sudah ter-compile (tidak memanggil fungsi).
+Jadi kita buatkan `images docker` untuk mempermudah pemakaian
 
-
-# Installation
-
-## `Dependency`
- * NMAP
-
-## `Compiling`
-```bash
-# Clone this repository
-git clone https://github.com/trimstray/htrace.sh
-
-# Go into directory
-cd htrace.sh
-
-# Install
-sudo ./setup.sh install
-
-# Install dependencies (Debian 8/9, Ubuntu 18.x and MacOS support)
-#   - recommend build docker image or install dependencies manually
-#   - before init please see what it does and which packages are available on your repository
-sudo ./dependencies.sh
-
-# Run the app
-htrace.sh -u https://nmap.org -s -h
-```
-
-> * symlink to `bin/htrace.sh` is placed in `/usr/local/bin`
-> * man page is placed in `/usr/local/man/man8`
-
-## `Docker Image`
+# `Play with Docker`
 
 ```bash
 # Clone this repository
@@ -73,9 +47,6 @@ docker run --rm -it --name htrace.sh htrace.sh -u https://nmap.org -s -h
 ```
 
 
-# Environment
-* Any OS having a Bash environment
-* The following tools must be installed and in the PATH:  openssl, shred, gzip, zcat
 
 
 # How to Use
