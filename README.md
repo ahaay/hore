@@ -40,7 +40,7 @@ Jadi kita buatkan `images docker` untuk mempermudah pemakaian
 docker pull rhmandrian/hore
 
 # How to Use
-docker run --rm -it --name hore rhmandrian/hore
+docker run -it --name [container_name] rhmandrian/hore
 
 :~#./hore
 ```

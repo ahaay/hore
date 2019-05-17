@@ -16,8 +16,7 @@ cout << "Pilih Tool : ";
 
 //Program Encryption
 system("encoding.exe");
-
-//Program Hashing
+system("./caesar");
 
 //Program Encoding
 
