@@ -1,7 +1,7 @@
 # Hore Tool
-> A collection digital forensic tool
+> A collection cybersecurity tool
 
-# Feature
+## Feature
 - [ ] Cryptography
     - [ ] `Encryption`
         - [ ] `Caesar`
