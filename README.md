@@ -11,6 +11,7 @@
         - [ ] `RSA`
     - [ ] `Hashing` 
         - [ ] `MD5`
+        - [ ] `SHA256`
 	- [ ] `Encoding`
 		- [ ] `Base64`
 		- [ ] `Base32`

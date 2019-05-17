@@ -7,7 +7,7 @@ int main()
 {
 printf(" | List Hore Tool  *********************|");cout<<endl;
 printf(" | 1. Encryption	4. Forensic\t|");cout<<endl;
-printf(" | 2. Hashing		5. WebRecon\t|");cout<<endl;
+printf(" | 2. Hashing		5. Recon\t|");cout<<endl;
 printf(" | 3. Encoding		6. Utility\t|");cout<<endl;
 printf(" |             		7. Exit__\t|");cout<<endl;
 printf(" | *************************************|");cout<<endl;
