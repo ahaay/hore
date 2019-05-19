@@ -26,8 +26,6 @@
     - [ ] `DNS Enum`
     - [ ] `IP Scanner`
     - [ ] `Port Scanner`
-- [ ] Utility
-    - [ ] `Curl`
 
 ## README
 Pada source utama `horetool.cpp` kita sengaja memanggil beberapa executable yg sudah ter-compile (tidak memanggil fungsi).
