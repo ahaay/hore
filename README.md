@@ -1,5 +1,5 @@
-# Hore Tool kwokwo
-> A collection cybersecurity tool
+# Hore Tool 
+> A collection cybersecurity tool - Final Project C++
 
 ## Feature
 - [ ] Cryptography
