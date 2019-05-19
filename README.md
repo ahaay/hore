@@ -6,9 +6,6 @@
     - [ ] `Encryption`
         - [ ] `Caesar`
         - [ ] `AES`
-        - [ ] `DES`
-        - [ ] `3DES`
-        - [ ] `RSA`
     - [ ] `Hashing` 
         - [ ] `MD5`
         - [ ] `SHA256`
