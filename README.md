@@ -43,6 +43,4 @@ docker run -it --name [container_name] rhmandrian/hore hore
 
 
 ## Source
-* http://www.cis.syr.edu/~wedu/seed/all_labs.html - Developing Instructional Laboratories for Computer SEcurity EDucation
-* https://www.vulnhub.com/ - Virtual Machines for Localhost Penetration Testing.
-* https://pentesterlab.com/ - PentesterLab is an easy and great way to learn penetration testing.
+* https://stackoverflow.com/questions/12151178/c-aes-encryption-class - C++ AES Encryption Class 
