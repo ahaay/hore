@@ -44,3 +44,4 @@ docker run -it --name [container_name] rhmandrian/hore hore
 
 ## Source
 * https://stackoverflow.com/questions/12151178/c-aes-encryption-class - C++ AES Encryption Class 
+* https://codereview.stackexchange.com/questions/179930/aes-implementation-in-c - AES Implementation in C++
