@@ -25,8 +25,8 @@
     - [ ] `Port Scanner`
 
 ## README
-Pada source utama `horetool.cpp` kita sengaja memanggil beberapa executable yg sudah ter-compile (tidak memanggil fungsi).
-Jadi kita buatkan `images docker` untuk mempermudah pemakaian
+Pada source utama `horetool.cpp` akan memanggil beberapa executable yg sudah ter-compile (sub program (tool: enkripsi,forensik,dsb) tidak kita buat dalam fungsi/class baru --> hehe biar cepet pak soalnya toolnya lumayan banyak).
+Jadi kita buatkan `image docker` untuk mempermudah pemakaian
 
 # `Play with Docker`
 
@@ -38,6 +38,11 @@ docker pull rhmandrian/hore
 docker run -it --name [container_name] rhmandrian/hore hore
 ```
 
+# `Manual Compilation`
+
+```
+sek gan belum selesai
+```
 
 ## Source
 * https://stackoverflow.com/questions/12151178/c-aes-encryption-class - C++ AES Encryption Class 
