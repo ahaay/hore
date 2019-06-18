@@ -1,5 +1,10 @@
 # Hore Tool 
-> A collection cybersecurity tool - Final Project C++
+> Cybersecurity Toolkit - Final Project C++
+```
+17.83.0014 - Lisa Naomi
+17.83.0015 - Andrian R.R
+17.83.0060 - Edward Tansen
+```
 
 ## Feature
 - [ ] Cryptography
