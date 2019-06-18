@@ -16,6 +16,7 @@
     - [ ] `Stegano`
         - [ ] `LSB [Text Based]`
         - [ ] `MSB [Text Based]`
+	- [ ] `End of File`
     - [ ] `Image Forensic`
         - [ ] `Exiftool`
 - [ ] Recon
