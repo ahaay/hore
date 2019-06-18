@@ -26,7 +26,7 @@
         - [ ] `Exiftool`
 - [ ] Recon
     - [ ] `WHOIS`
-    - [ ] `DNS Enum`
+    - [ ] `DNS Lookup`
     - [ ] `IP Scanner`
     - [ ] `Port Scanner`
 
