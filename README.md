@@ -18,17 +18,14 @@
 		- [ ] `Base64`
 		- [ ] `Base32`
 - [ ] Forensic
-    - [ ] `Stegano`
-        - [ ] `LSB [Text Based]`
-        - [ ] `MSB [Text Based]`
-        - [ ] `End of File`
-    - [ ] `Image Forensic`
-        - [ ] `Exiftool`
+    - [ ] `Displays printable strings in the given file [Strings]`
+    - [ ] `File Carving [Foremost]`
+    - [ ] `Image Forensic [Exiftool]`
 - [ ] Recon
     - [ ] `WHOIS`
     - [ ] `DNS Lookup`
-    - [ ] `IP Scanner`
-    - [ ] `Port Scanner`
+    - [ ] `IP Scanner [NMAP]`
+    - [ ] `Port Scanner [NMAP]`
 
 ## README
 Pada source interface `horetool.cpp` akan memanggil beberapa executable yg sudah ter-compile. Sub program (tool: enkripsi,forensik,dsb) tidak kita buat dalam fungsi/class baru --> hehe biar cepet pak soalnya toolnya lumayan banyak.
