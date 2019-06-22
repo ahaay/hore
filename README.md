@@ -34,7 +34,7 @@ Jadi kita buatkan `image docker` untuk mempermudah pemakaian
 ### DEPENDENCIES
 Dependency  |  Slide
 ----  |  ----
-[NMAP](https://raw.githubusercontent.com/CSDV01/index/master/poster/exploit-0x1.jpg) | [Download](https://nmap.org/download.html) 
+NMAP | [Download](https://nmap.org/download.html) 
 
 # `Play with Docker`
 
