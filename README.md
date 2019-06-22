@@ -32,7 +32,6 @@ Pada source interface `horetool.cpp` akan memanggil beberapa executable yg sudah
 Jadi kita buatkan `image docker` untuk mempermudah pemakaian
 
 ### DEPENDENCIES
-- NMAP --> [Download]
 Dependency  |  Slide
 ----  |  ----
 [NMAP](https://raw.githubusercontent.com/CSDV01/index/master/poster/exploit-0x1.jpg) | [Download](https://nmap.org/download.html) 
