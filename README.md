@@ -21,7 +21,7 @@
     - [ ] `Displays printable strings in the given file [Strings]`
     - [ ] `Image Forensic [Exiftool]`
 - [ ] Recon
-    - [ ] `WHOIS` [curl from cli.fyi]
+    - [ ] `WHOIS [curl from cli.fyi]` 
     - [ ] `DNS Lookup [nslookup]`
     - [ ] `IP Scanner [NMAP]`
     - [ ] `Port Scanner 
