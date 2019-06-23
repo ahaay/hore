@@ -24,7 +24,7 @@
     - [ ] `WHOIS [curl from cli.fyi]` 
     - [ ] `DNS Lookup [nslookup]`
     - [ ] `IP Scanner [NMAP]`
-    - [ ] `Port Scanner 
+    - [ ] `Port Scanner`
 
 ## README
 Pada source interface `horetool.cpp` akan memanggil beberapa executable yg sudah ter-compile. Sub program (tool: enkripsi,forensik,dsb) tidak kita buat dalam fungsi/class baru --> hehe biar cepet pak soalnya toolnya lumayan banyak.
