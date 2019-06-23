@@ -23,7 +23,7 @@
     - [ ] `Image Forensic [Exiftool]`
 - [ ] Recon
     - [ ] `WHOIS`
-    - [ ] `DNS Lookup`
+    - [ ] `DNS Lookup [nslookup]`
     - [ ] `IP Scanner [NMAP]`
     - [ ] `Port Scanner [NMAP]`
 
