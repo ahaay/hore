@@ -30,7 +30,7 @@ switch(opsi){
 	
 	// 1. Encryption
 	case 1: 
-		cout << "\nAlgorithm Cipher:\n1. Caesar\n2. Other Simetris Cipher\n3. XOR\n4. Back";
+		cout << "\nAlgorithm Cipher:\n1. Caesar\n2. Other Symetric Cipher\n3. XOR\n4. Bruteforce Caesar\n5. Back";
 		cout << "\nPilih >> "; cin >> opsi2;
 		switch(opsi2){
 			case 1:{
@@ -66,7 +66,18 @@ switch(opsi){
 				goto start;
 			}
 
-			case 4: 
+			case 4:{
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cin >> tampung2;
+				if (tampung2 == 1){
+					system("brutecaesar.exe");
+				} else {
+					system("./brutecaesar");
+				}
+				goto start;
+			}
+
+			case 5: 
 				goto start;
 		}
 	
@@ -163,13 +174,11 @@ switch(opsi){
 			}
 
 			case 4:{
-				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
-				cin >> tampung2;
-				if (tampung2 == 1){
-					system("portscan.exe");
-				} else {
-					system("./portscan");
-				}
+				cout << "IP Address = ";
+				cin >> tampung;
+				if (tampung != ""){
+					system(("nmap "+tampung).c_str());
+				} 
 				goto start;
 			}
 			
