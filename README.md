@@ -37,6 +37,8 @@ Dependency  |  Download
 ----  |  ----
 NMAP | [Download](https://nmap.org/download.html) 
 Exiftool | [Download](https://www.sno.phy.queensu.ca/~phil/exiftool/) 
+Curl | [Download](https://curl.haxx.se/)
+Strings
 
 # `Play with Docker`
 
