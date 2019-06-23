@@ -1,15 +1,16 @@
 #include <iostream>
+#include <string>
 #include <stdio.h>
 using namespace std;
-
-int opsi, opsi2;
-char key;
 
 int main()
 {
 
-while(true){
+int opsi, opsi2, tampung2;
+char key;
+string tampung;
 
+while(true){
 
 printf("\nMenggunakan hore tool? (y/n) : ");
 key = cin.get();	
@@ -25,88 +26,158 @@ printf(" | *************************************|");cout<<endl;
 
 cout << "Pilih tool >> "; cin >> opsi;
 
-
 switch(opsi){
+	
 	// 1. Encryption
 	case 1: 
-		cout << "\nAlgorithm Cipher:\n1. AES\n2. Caesar\n3. Back";
+		cout << "\nAlgorithm Cipher:\n1. Caesar\n2. Other Simetris Cipher\n3. XOR\n4. Back";
 		cout << "\nPilih >> "; cin >> opsi2;
 		switch(opsi2){
-			case 1:
-				cout << "\n";
-				system("./caesar");
+			case 1:{
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cin >> tampung2;
+				if (tampung2 == 1){
+					system("caesar.exe");
+				} else {
+					system("./caesar");
+				}
 				goto start;
-			case 2: 
-				cout << "\n";	
-				system("./caesar");
+			}
+			
+			case 2:{
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cin >> tampung2;
+				if (tampung2 == 1){
+					system("simetris.exe");
+				} else {
+					system("./simetris");
+				}
 				goto start;
-			case 3: 
+			}
+			
+			case 3:{
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cin >> tampung2;
+				if (tampung2 == 1){
+					system("xor.exe");
+				} else {
+					system("./xor");
+				}
+				goto start;
+			}
+
+			case 4: 
 				goto start;
 		}
 	
 	// 2. Hashing
-	case 2: 
-		cout << "\nAlgorithm Hashing:\n1. MD5\n2. SHA256";
-		cout << "\nPilih >> "; cin >> opsi2;
-		switch(opsi2){
-			case 1:
-				cout << "\n";
-				system("./md5");
+	case 2: {
+				cout << "Input Text = ";
+				cin >> tampung;
+				if (tampung != ""){
+					system(("curl cli.fyi/hash/"+tampung).c_str());
+				} 
 				goto start;
-			case 2: 
-				cout << "\n";	
-				system("./sha256");
-				goto start;
-		}
+			}
+
 	
 	// 3. Encoding
 	case 3: 
-		cout << "\nAlgorithm Encoding:\n1. Base64\n2. Base32";
+		cout << "\nAlgorithm Encoding:\n1. Base64\n2. Back";
 		cout << "\nPilih >> "; cin >> opsi2;
 		switch(opsi2){
-			case 1:
-				cout << "\n";
-				system("./base64");
+			case 1:{
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cin >> tampung2;
+				if (tampung2 == 1){
+					system("base64.exe");
+				} else {
+					system("./base64");
+				}
 				goto start;
+			}
+
 			case 2: 
-				cout << "\n";	
-				system("./base32");
 				goto start;
 		}
 	
 	// 4. Forensic
 	case 4: 
-		cout << "\nForensic Tools:\n1. Strings\n2. Foremost\n3. Exiftool";
+		cout << "\nForensic Tools:\n1. Strings\n2. Exiftool\n3. Back";
 		cout << "\nPilih >> "; cin >> opsi2;
 		switch(opsi2){
-			case 1:
-				cout << "\n Options: string --help";
-				system("./strings");
+			case 1: {
+				cout << "**File harus satu direktori dengan program!\n";
+				cout << "Masukkan nama = ";
+				cin >> tampung;
+				if (tampung != ""){
+					system(("strings "+tampung).c_str());
+				} 
 				goto start;
-			case 2: 
-				cout << "\n Options: foremost -h";	
-				system("./base32");
+			}
+				
+			case 2:{ 
+				cout << "**File gambar harus satu direktori dengan program!\n";
+				cout << "Masukkan nama file gambar [namagambar.png] = ";
+				cin >> tampung;
+				if (tampung != ""){
+					system(("strings "+tampung).c_str());
+				} 
 				goto start;
+			}
+
 			case 3: 
-				cout << "\n Command: exiftool [image]";	
-				system("./base32");
 				goto start;
 		}
 
 	// 5. Recon
 	case 5: 
-		cout << "\nReconnaissance:\n1. WHOIS\n2. DNS Loookup\n3. IP Scanner\n4. Port Scanner";
+		cout << "\nReconnaissance:\n1. WHOIS\n2. DNS Loookup\n3. IP Scanner\n4. Port Scanner\n5. Back";
 		cout << "\nPilih >> "; cin >> opsi2;
 		switch(opsi2){
-			case 1:
-				cout << "\n";
-				system("./caesar");
+			case 1:{ 
+				cout << "Masukkan domain/ip publik = ";
+				cin >> tampung;
+				if (tampung != ""){
+					system(("curl cli.fyi/"+tampung).c_str());
+				} 
 				goto start;
-			case 2: 
-				cout << "\n";	
-				system("./caesar");
+			}
+
+			case 2:{ 
+				cout << "Domain = ";
+				cin >> tampung;
+				if (tampung != ""){
+					system(("nslookup "+tampung).c_str());
+				} 
 				goto start;
+			}
+
+			case 3:{ 
+				cout << "Range IP [ex:192.168.1.1/24] = ";
+				cin >> tampung;
+				if (tampung != ""){
+					system(("nmap "+tampung).c_str());
+				} 
+				goto start;
+			}
+
+			case 4:{
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cin >> tampung2;
+				if (tampung2 == 1){
+					system("portscan.exe");
+				} else {
+					system("./portscan");
+				}
+				goto start;
+			}
+			
+			case 5: 
+			goto start;
 		}
+
+
 
 	// 6. Exit
 	case 6: 
