@@ -45,7 +45,7 @@ Exiftool | [Download](https://www.sno.phy.queensu.ca/~phil/exiftool/)
 docker pull rhmandrian/hore
 
 # How to Use
-docker run -it --name [container_name] rhmandrian/hore hore
+docker run --rm -it rhmandrian/hore
 
 **Tools forensik gak jalan di image docker (belum kita mount ke direktori buat naruh file)
 ```
