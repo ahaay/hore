@@ -10,13 +10,12 @@
 - [ ] Cryptography
     - [ ] `Encryption`
         - [ ] `Caesar`
-        - [ ] `AES`
+        - [ ] `Other Simetris Algoritm`
+    - [ ] `Encoding` 
+        - [ ] `Base64`
     - [ ] `Hashing` 
         - [ ] `MD5`
         - [ ] `SHA256`
-	- [ ] `Encoding`
-		- [ ] `Base64`
-		- [ ] `Base32`
 - [ ] Forensic
     - [ ] `Displays printable strings in the given file [Strings]`
     - [ ] `Image Forensic [Exiftool]`
@@ -51,7 +50,14 @@ docker run -it --name [container_name] rhmandrian/hore hore
 # `Manual Compilation`
 
 ```
-sek gan belum selesai
+g++ horetool.cpp -o horetool
+g++ caesar.cpp -o caesar
+g++ simetris.cpp -o simetris
+g++ md5.cpp -o md5
+g++ sha256.cpp -o sha256
+g++ base64.cpp -o base64
+
+RUN : ./horetool or horetool.exe
 ```
 
 ## Source
