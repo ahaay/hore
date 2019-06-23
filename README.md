@@ -48,8 +48,6 @@ docker pull rhmandrian/horetool
 
 # How to Use
 docker run --rm -it rhmandrian/horetool
-
-**Tools forensik gak jalan di image docker (belum kita mount ke direktori buat naruh file)
 ```
 
 # `or Manual Compilation`
