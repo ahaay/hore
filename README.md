@@ -11,8 +11,12 @@
     - [ ] `Encryption`
         - [ ] `XOR`
         - [ ] `Caesar`
+<<<<<<< HEAD
         - [ ] `Bruteforce Caesar`
         - [ ] `Other Simetris Algoritm`
+=======
+        - [ ] `Other Symetric Algoritm`
+>>>>>>> 18a249be5de78b368f4044a36c2541641f61dbf2
     - [ ] `Encoding` 
         - [ ] `Base64`
     - [ ] `Hashing --> Input Text` 
