@@ -44,10 +44,10 @@ Strings
 
 ```
 # Pull image
-docker pull rhmandrian/hore
+docker pull rhmandrian/horetool
 
 # How to Use
-docker run --rm -it rhmandrian/hore
+docker run --rm -it rhmandrian/horetool
 
 **Tools forensik gak jalan di image docker (belum kita mount ke direktori buat naruh file)
 ```
