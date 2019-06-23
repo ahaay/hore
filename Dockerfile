@@ -1,10 +1,5 @@
-FROM ubuntu
+FROM rhmandrian/hore
 
-WORKDIR hore
-
-COPY . /hore
-
-RUN apt install strings -y && apt install exiftool -y
-RUN chmod +x hore && ./hore
-
-ENTRYPOINT ./hore
+RUN apt update -y && apt install curl libimage-exiftool-perl binutils -y
+RUN chmod +x /bin/hore/*
+CMD ["/bin/hore/hore"]
