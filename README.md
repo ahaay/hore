@@ -16,6 +16,7 @@
     - [ ] `Hashing --> Input Text` 
         - [ ] `MD2, MD4, MD5`
         - [ ] `SHA1, SHA224, SHA256, SHA384, SHA512/224, SHA512/256`
+        - [ ] `Other algoritm hashing`
 - [ ] Forensic
     - [ ] `Displays printable strings in the given file [Strings]`
     - [ ] `Image Forensic [Exiftool]`
