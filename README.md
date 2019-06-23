@@ -19,7 +19,6 @@
 		- [ ] `Base32`
 - [ ] Forensic
     - [ ] `Displays printable strings in the given file [Strings]`
-    - [ ] `File Carving [Foremost]`
     - [ ] `Image Forensic [Exiftool]`
 - [ ] Recon
     - [ ] `WHOIS`
@@ -35,6 +34,7 @@ Jadi kita buatkan `image docker` untuk mempermudah pemakaian
 Dependency  |  Download
 ----  |  ----
 NMAP | [Download](https://nmap.org/download.html) 
+Exiftool | [Download](https://www.sno.phy.queensu.ca/~phil/exiftool/) 
 
 # `Play with Docker`
 
