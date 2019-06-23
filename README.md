@@ -9,6 +9,7 @@
 ## Feature
 - [ ] Cryptography
     - [ ] `Encryption`
+        - [ ] `XOR`
         - [ ] `Caesar`
         - [ ] `Other Simetris Algoritm`
     - [ ] `Encoding` 
@@ -53,10 +54,10 @@ docker run -it --name [container_name] rhmandrian/hore hore
 ```
 g++ horetool.cpp -o horetool
 g++ caesar.cpp -o caesar
+g++ xor.cpp -o xor
 g++ simetris.cpp -o simetris
-g++ md5.cpp -o md5
-g++ sha256.cpp -o sha256
 g++ base64.cpp -o base64
+g++ portscan.cpp -o portscan
 
 RUN : ./horetool or horetool.exe
 ```
