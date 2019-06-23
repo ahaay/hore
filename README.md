@@ -32,7 +32,7 @@
 Pada source interface `horetool.cpp` akan memanggil beberapa executable yg sudah ter-compile. Sub program (tool: enkripsi,forensik,dsb) tidak kita buat dalam fungsi/class baru --> hehe biar cepet pak soalnya toolnya lumayan banyak.
 Jadi kita buatkan `image docker` untuk mempermudah pemakaian
 
-### DEPENDENCIES
+# `DEPENDENCIES`
 Dependency  |  Download
 ----  |  ----
 NMAP | [Download](https://nmap.org/download.html) 
