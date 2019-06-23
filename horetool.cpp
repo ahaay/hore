@@ -34,7 +34,7 @@ switch(opsi){
 		cout << "\nPilih >> "; cin >> opsi2;
 		switch(opsi2){
 			case 1:{
-				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)\n>> ";
 				cin >> tampung2;
 				if (tampung2 == 1){
 					system("caesar.exe");
@@ -45,7 +45,7 @@ switch(opsi){
 			}
 			
 			case 2:{
-				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)\n>> ";
 				cin >> tampung2;
 				if (tampung2 == 1){
 					system("simetris.exe");
@@ -56,7 +56,7 @@ switch(opsi){
 			}
 			
 			case 3:{
-				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)\n>> ";
 				cin >> tampung2;
 				if (tampung2 == 1){
 					system("xor.exe");
@@ -67,7 +67,7 @@ switch(opsi){
 			}
 
 			case 4:{
-				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)\n>> ";
 				cin >> tampung2;
 				if (tampung2 == 1){
 					system("brutecaesar.exe");
@@ -98,7 +98,7 @@ switch(opsi){
 		cout << "\nPilih >> "; cin >> opsi2;
 		switch(opsi2){
 			case 1:{
-				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)";
+				cout << "\nPlatform: \n1. Windows(EXE)\n2. Linux(ELF)\n>> ";
 				cin >> tampung2;
 				if (tampung2 == 1){
 					system("base64.exe");
@@ -132,7 +132,7 @@ switch(opsi){
 				cout << "Masukkan nama file gambar [namagambar.png] = ";
 				cin >> tampung;
 				if (tampung != ""){
-					system(("strings "+tampung).c_str());
+					system(("exiftool "+tampung).c_str());
 				} 
 				goto start;
 			}
