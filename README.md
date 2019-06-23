@@ -14,7 +14,7 @@
         - [ ] `Bruteforce Caesar`
         - [ ] `Other Simetris Algoritm`
     - [ ] `Encoding` 
-        - [ ] `Base64 (Tidak jalan di platform Linux (library windows.h))`
+        - [ ] `Base64 (Tidak jalan di platform Linux (terdapat library windows.h))`
     - [ ] `Hashing --> Input Text` 
         - [ ] `MD2, MD4, MD5`
         - [ ] `SHA1, SHA224, SHA256, SHA384, SHA512/224, SHA512/256`
