@@ -11,7 +11,7 @@
     - [ ] `Encryption`
         - [ ] `XOR`
         - [ ] `Caesar`
-        - [ ] `Other Simetris Algoritm`
+        - [ ] `Other Symetric Algoritm`
     - [ ] `Encoding` 
         - [ ] `Base64`
     - [ ] `Hashing --> Input Text` 
